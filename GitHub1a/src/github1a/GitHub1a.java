@@ -27,7 +27,9 @@ public class GitHub1a {
         imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
         imprimirMensaje("Frases de Interes para la programación");
-        imprimirMensaje("Si quieres aprender a programar, programa, programa y programa");
+        imprimirMensaje("1.- Si quieres aprender a programar, programa, programa y programa");
+        imprimirMensaje("2.- Todo aprendizaje requiere esfuerzo y dedicación");
+        imprimirMensaje("3.- Todo inicia con un Hello Word ");
     }
     
     static void imprimirEncabezado(){
