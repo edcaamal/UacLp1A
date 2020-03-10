@@ -16,6 +16,11 @@ public class GitHub1a {
     static void imprimirSeparador(){
         System.out.println("----------------------------------");
     }
+    static void imprimirPie(){
+        imprimirSeparador();
+        imprimirMensaje("(c) EDCD 2020");
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -26,6 +31,7 @@ public class GitHub1a {
         imprimirSeparador();
         imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
+        imprimirPie();
         
     }
     
