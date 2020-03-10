@@ -10,6 +10,12 @@ package github1a;
  * @author edgar
  */
 public class GitHub1a {
+    /**
+    * Nombre     : imprimirMensaje
+    * Parámetros : (String mensaje
+    * Regresa    : void
+    * Acción     : Imprime la cadena mensaje con un salto de línea
+    */
     static void imprimirMensaje(String mensaje){
         System.out.println(mensaje);
     }
