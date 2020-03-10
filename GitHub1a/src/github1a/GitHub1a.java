@@ -21,15 +21,22 @@ public class GitHub1a {
         imprimirMensaje("(c) EDCD 2020");
     }
 
+    static void imprimirFrases(){
+        imprimirMensaje("  "+ "1.- Si quieres aprender a programar, programa, programa y programa");
+        imprimirMensaje("  "+ "2.- Todo aprendizaje requiere esfuerzo y dedicación");
+        imprimirMensaje("  "+ "3.- Todo inicia con un Hello Word ");
+        imprimirMensaje("  "+ "4.- Los programadores son los brazos de las máquinas ");
+        imprimirMensaje("  "+ "5.- La persistencia tarde o temprano vencera a la inteligencia ");
+        imprimirMensaje("  "+ "6.- Solo se pueden conectar los puntos hacia atras ");
+    }
+    
     static void imprimirBody(){
         imprimirMensaje("Hola Mundo");
         imprimirMensaje("Saludos UAC-FI-ISC 2020");
         imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
         imprimirMensaje("Frases de Interes para la programación");
-        imprimirMensaje("1.- Si quieres aprender a programar, programa, programa y programa");
-        imprimirMensaje("2.- Todo aprendizaje requiere esfuerzo y dedicación");
-        imprimirMensaje("3.- Todo inicia con un Hello Word ");
+        imprimirFrases();
     }
     
     static void imprimirEncabezado(){
