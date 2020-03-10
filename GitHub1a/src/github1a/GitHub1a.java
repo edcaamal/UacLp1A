@@ -26,6 +26,8 @@ public class GitHub1a {
         imprimirMensaje("Saludos UAC-FI-ISC 2020");
         imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
+        imprimirMensaje("Frases de Interes para la programación");
+        imprimirMensaje("Si quieres aprender a programar, programa, programa y programa");
     }
     
     static void imprimirEncabezado(){
