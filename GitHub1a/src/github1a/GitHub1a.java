@@ -10,7 +10,9 @@ package github1a;
  * @author edgar
  */
 public class GitHub1a {
-
+    static void imprimirMensaje(String mensaje){
+        System.out.println(mensaje);
+    }
     /**
      * @param args the command line arguments
      */
@@ -19,6 +21,7 @@ public class GitHub1a {
         System.out.println("Hola Mundo");
         System.out.println("Saludos UAC-FI-ISC 2020");
         System.out.println("Probando el Git");
+        imprimirMensaje("Prueba de Edgar Caamal");
         
     }
     
