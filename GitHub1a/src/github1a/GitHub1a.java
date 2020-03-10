@@ -13,6 +13,12 @@ public class GitHub1a {
     static void imprimirMensaje(String mensaje){
         System.out.println(mensaje);
     }
+   /**
+    * Nombre     : imprimirSeparador
+    * Parámetros : ()
+    * Regresa    : void
+    * Acción     : Imprime una linea de separación para distinguir secciones 
+    */
     static void imprimirSeparador(){
         System.out.println("+========================================================================+");
     }
