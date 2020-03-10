@@ -14,7 +14,7 @@ public class GitHub1a {
         System.out.println(mensaje);
     }
     static void imprimirSeparador(){
-        System.out.println("----------------------------------");
+        System.out.println("----------------------------------------------");
     }
     static void imprimirPie(){
         imprimirSeparador();
