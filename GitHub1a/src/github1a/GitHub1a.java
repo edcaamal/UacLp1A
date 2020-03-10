@@ -16,11 +16,20 @@ public class GitHub1a {
     static void imprimirSeparador(){
         System.out.println("----------------------------------");
     }
+    
+    static void imprimirEncabezado(){
+        imprimirMensaje("Bienvenidos al Fasinante mundo de la Programacion");
+        imprimirMensaje("Lenguajes de programación Java con NetBeans");
+        imprimirSeparador();
+    }
+    
+    
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        imprimirEncabezado();
         imprimirMensaje("Hola Mundo");
         imprimirMensaje("Saludos UAC-FI-ISC 2020");
         imprimirSeparador();
