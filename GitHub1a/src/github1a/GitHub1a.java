@@ -18,9 +18,9 @@ public class GitHub1a {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola Mundo");
-        System.out.println("Saludos UAC-FI-ISC 2020");
-        System.out.println("Probando el Git");
+        imprimirMensaje("Hola Mundo");
+        imprimirMensaje("Saludos UAC-FI-ISC 2020");
+        imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
         
     }
