@@ -21,6 +21,12 @@ public class GitHub1a {
         imprimirMensaje("(c) EDCD 2020");
     }
 
+    static void imprimirBody(){
+        imprimirMensaje("Hola Mundo");
+        imprimirMensaje("Saludos UAC-FI-ISC 2020");
+        imprimirMensaje("Probando el Git");
+        imprimirMensaje("Prueba de Edgar Caamal");
+    }
     
     static void imprimirEncabezado(){
         imprimirMensaje("Bienvenidos al Fasinante mundo de la Programacion");
@@ -35,11 +41,7 @@ public class GitHub1a {
     public static void main(String[] args) {
         // TODO code application logic here
         imprimirEncabezado();
-        imprimirMensaje("Hola Mundo");
-        imprimirMensaje("Saludos UAC-FI-ISC 2020");
-        imprimirSeparador();
-        imprimirMensaje("Probando el Git");
-        imprimirMensaje("Prueba de Edgar Caamal");
+        imprimirBody();
         imprimirPie();
         
     }
