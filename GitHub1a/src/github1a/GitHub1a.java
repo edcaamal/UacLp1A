@@ -13,6 +13,9 @@ public class GitHub1a {
     static void imprimirMensaje(String mensaje){
         System.out.println(mensaje);
     }
+    static void imprimirSeparador(){
+        System.out.println("----------------------------------");
+    }
     /**
      * @param args the command line arguments
      */
@@ -20,6 +23,7 @@ public class GitHub1a {
         // TODO code application logic here
         imprimirMensaje("Hola Mundo");
         imprimirMensaje("Saludos UAC-FI-ISC 2020");
+        imprimirSeparador();
         imprimirMensaje("Probando el Git");
         imprimirMensaje("Prueba de Edgar Caamal");
         
