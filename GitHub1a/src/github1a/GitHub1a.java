@@ -12,7 +12,7 @@ package github1a;
 public class GitHub1a {
     /**
     * Nombre     : imprimirMensaje
-    * Parámetros : (String mensaje
+    * Parámetros : (String mensaje)
     * Regresa    : void
     * Acción     : Imprime la cadena mensaje con un salto de línea
     */
